@@ -179,6 +179,4 @@ python tools/settings.py --show
 `assets/stickers/` 下是原创猫咪文字表情（8 类 × 3 张），可自由替换成自己的图片。
 支持 `png / jpg / jpeg / gif / webp`；某个类别为空会退回 emoji。
 
-## License
-
-MIT，见 `LICENSE`。
+见 `LICENSE`。
