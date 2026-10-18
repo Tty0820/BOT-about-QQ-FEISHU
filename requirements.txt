@@ -1,0 +1,3 @@
+openai>=1.0
+websockets>=12.0
+lark-oapi>=1.4

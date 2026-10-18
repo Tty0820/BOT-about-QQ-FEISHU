@@ -1,0 +1,74 @@
+{
+  "ai": {
+    "api_base": "https://api.deepseek.com",
+    "model": "deepseek-flash",
+    "fallback_models": [
+      "deepseek-v4-pro"
+    ],
+    "temperature": 0.9
+  },
+  "qq": {
+    "enabled": true,
+    "ws_url": "ws://127.0.0.1:3001",
+    "owner_qq": 0,
+    "allowed_qqs": [],
+    "others_mode": "guest",
+    "rate_per_minute": 10,
+    "rate_per_day": 100,
+    "guest_rate_per_minute": 5,
+    "guest_rate_per_day": 30,
+    "allow_group": true,
+    "group_require_at": true,
+    "group_only_owner": true,
+    "allowed_groups": [],
+    "group_rate_per_minute": 5,
+    "group_rate_per_day": 50,
+    "recent": 40,
+    "summarize_at": 80,
+    "keep": 400,
+    "max_reply_chars": 600,
+    "sticker_dir": "assets/stickers",
+    "sticker_max_bytes": 4194304,
+    "sticker_auto_chance": 0.2,
+    "persona": {
+      "owner": "prompts/qq_owner.txt",
+      "guest": "prompts/qq_guest.txt",
+      "group": "prompts/qq_group.txt",
+      "sum_owner": "prompts/qq_sum_owner.txt",
+      "sum_guest": "prompts/qq_sum_guest.txt",
+      "sum_group": "prompts/qq_sum_group.txt"
+    }
+  },
+  "feishu": {
+    "enabled": true,
+    "app_id": "",
+    "owner_open_id": "",
+    "proactive": [
+      "09:00",
+      "12:00",
+      "21:30"
+    ],
+    "recent": 40,
+    "summarize_at": 80,
+    "keep": 600,
+    "max_reply_chars": 600,
+    "max_image_bytes": 8388608,
+    "sticker_dir": "assets/stickers",
+    "sticker_max_bytes": 4194304,
+    "sticker_auto_chance": 0.2,
+    "persona": {
+      "main": "prompts/feishu_main.txt",
+      "summary": "prompts/feishu_sum.txt",
+      "identity": "prompts/feishu_identity.txt"
+    }
+  },
+  "paths": {
+    "data_dir": "data",
+    "log_dir": "logs"
+  },
+  "startup": {
+    "python": "python",
+    "napcat": "C:\\path\\to\\NapCat.Shell.Windows.Node\\napcat.bat",
+    "quick_login_qq": 0
+  }
+}

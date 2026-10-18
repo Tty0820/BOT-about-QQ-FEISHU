@@ -1,0 +1,18 @@
+# secrets
+.env
+config.json
+
+# runtime data
+data/
+logs/
+*.log
+.bot.lock
+.qq_bot.lock
+**/__pycache__/
+
+# backups
+*.bak
+_backup/
+
+# local private prompts
+prompts.local/
